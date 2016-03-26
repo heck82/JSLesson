@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JOB PORTAL</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-kVo/Eh0sv7ZdiwZK32nRsp1FrDT3sLRLx3zVpSSTI9UdO5H02LJNLBg5F1gwvKg0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/ico2.jpg" type="image/gif">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+     <div id="sp-header" class="clearfix">
+        <a class="logo col-md-3" href>
+            <img src="images/logo.png">
+        </a>
+        <div class="col-md-4 navbar-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="btn-facebook" href="#">we in facebook<span class="fa fa-facebook pull-right"></span></a></li>
+                  <li><a class="btn-twitter" href="#">we in tweeter<span class="fa fa-twitter pull-right"></span></a></li>
+                  <li><a class="btn-vk" href="#">we in VK<span class="fa fa-vk pull-right"></span></a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">For Developers</li>
+                  <li><a href="#">Site Map</a></li>
+                  <li><a href="#">Setings</a></li>
+                </ul>
+              </li>
+            <li><a id="login" href="#">LogIn
+                <span class="glyphicon glyphicon-log-in"></span>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row" id="rom"></div>
+    <img class="img-responsive logo" src="images/logoTR.png">
+    <div class="row" id="navi">
+        <div class="label-primary col-md-6">
+            <a class="botnav" id="page_emploee" href>
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="col-md-9 pull-right">Find an Emploee</span>
+            </a>
+        </div>
+        <div class="label-info col-md-6">
+            <a class="botnav" id="page_job" href>
+                <span class="col-md-9">Find a Job</span>
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="mastfoot"></div>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+</div>
+<script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>
